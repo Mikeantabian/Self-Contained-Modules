@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/RAM.sv" \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/ShiftRegister.sv" \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/Demux.sv" \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/Mux.sv" \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/LFSR.sv" \
+"../../../../Self_Contained_Modules.srcs/sources_1/new/FIFO.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/Demux_tb.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/FIFO_tb.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/LFSR_tb.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/Mux_tb.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/SR_tb.sv" \
+"../../../../Self_Contained_Modules.srcs/sim_1/new/RAM_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
