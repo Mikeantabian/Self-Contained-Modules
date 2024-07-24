@@ -47,3 +47,15 @@
 
 - **Description:** Implements a shift register with configurable length.
 - **Features:** Shifts input data on each clock cycle. Uses clocked sequential logic for shifting operations.
+
+## 10. PWM
+
+- **Description**: Generates a Pulse Width Modulation (PWM) signal with configurable duty cycle and resolution.
+
+- **Features**: 
+-- Parameterized resolution (`N` bits) for PWM counter.
+-- Adjustable duty cycle input for controlling the PWM signal’s duty cycle.
+-- Automatically resets counter upon reaching maximum value.
+
+- **Usage**: Ideal for applications requiring adjustable signal pulses, such as controlling the brightness of LEDs or seven-segment displays.
+
