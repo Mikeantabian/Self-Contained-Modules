@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="65" Path="/home/michael/Documents/personalProj/Nandland/chapter6/Self_Contained_Modules/Self_Contained_Modules.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="/home/michael/Documents/GitHub_Portfolio_Repos/TempRepos/Self-Contained-Modules/Self_Contained_Modules/Self_Contained_Modules.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="ef92181ad47749cfa6e873fa753cb28b"/>
@@ -156,6 +156,13 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/BarrelShifter.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/pwm.sv">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
